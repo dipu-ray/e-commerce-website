@@ -1,0 +1,88 @@
+.contain {
+    margin-bottom: 80px;
+}
+
+.carousel-inner {
+    background-color: #fceae8;
+}
+
+.carousel-item {
+    padding: 20px 40px;
+}
+
+.prices {
+    color: #ff136f;
+    padding-bottom: 15px;
+}
+
+.buy-now {
+    background-color: #ff136f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    transition: .30s;
+}
+
+.buy-now:hover {
+    background-color: #ff589b;
+}
+
+.carousel-inner {
+    
+    border-radius: 10px;
+}
+
+.category-one {
+    background:linear-gradient(to left, gold, orange);
+}
+
+.category-two {
+    background:linear-gradient(to left, rgb(246, 1, 238), rgb(186, 3, 180));
+}
+
+.category-three {
+    background:linear-gradient(to left, blue, rgb(3, 3, 173));
+}
+
+.category-one, .category-two, .category-three {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.categories h1 {
+    color: white;
+}
+
+.shoe-prices {
+    color: #ff136f;
+}
+
+.card {
+    transition: .50s;
+    border: none;
+    box-shadow: 10px 10px 13px black;
+}
+
+.card:hover {
+    background-color: #f3edf0;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.max-width:hover {
+    background-color: #ff136f;
+}
+
+#contact {
+    height: 300px;
+    background-color: #fceae8;
+}
+
+footer {
+    text-align: center;
+    font-weight: 500;
+}

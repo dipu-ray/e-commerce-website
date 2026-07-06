@@ -1,0 +1,15 @@
+:root {
+    --espresso: #2B211B;
+    --espresso-2: #3A2E27;
+    --cream: #F5EFE6;
+    --cream-2: #EFE4D3;
+    --rust: #A6441F;
+    --rust-dark: #863518;
+    --tan: #E8C9A0;
+    --sage: #6B8F71;
+    --line: rgba(43, 33, 27, 0.14);
+    --shadow: 0 10px 30px rgba(43, 33, 27, 0.12);
+    --font-display: "Fraunces", "Georgia", serif;
+    --font-body: "Work Sans", -apple-system, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+}

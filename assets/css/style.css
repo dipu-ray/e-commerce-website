@@ -30,6 +30,19 @@ body {
     letter-spacing: 0.12em;
 }
 
+.py-6 {
+    padding: 60px 0;
+}
+
+.same-span {
+    color: var(--tan);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-family: var(--font-mono);
+    font-size: .7rem;
+    font-weight: 600;
+}
+
 /* Header */
 .header-top {
     background-color: var(--espresso);
@@ -89,4 +102,41 @@ body {
     font-size: .5rem;
     background-color: var(--rust);
     padding: 4px 5px;
+}
+
+/* Main */
+/* Home Section */
+.home-section {
+    background-color: var(--espresso);
+}
+
+.home-section h1 {
+    font-family: var(--font-display);
+    color: var(--cream);
+    font-size: 4rem;
+}
+
+.home-section p {
+    color: rgba(245, 239, 230, 0.78);
+    font-size: 1.1rem;
+    width: 90%;
+}
+
+.home-section .h-btn-1 {
+    background-color: var(--rust);
+    color: var(--cream);
+    padding: 15px 30px;
+    transition: var(--transition);
+}
+
+.home-section .h-btn-1:hover {
+    background-color: var(--rust-dark);
+    transform: translateY(-3px);
+}
+
+.home-section .h-btn-2 {
+    border: 1px solid rgba(245, 239, 230, 0.6);
+    color: var(--cream);
+    padding: 15px 30px;
+    transition: var(--transition);
 }

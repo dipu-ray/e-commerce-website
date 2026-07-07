@@ -37,61 +37,56 @@ body {
     font-family: var(--font-mono);
 }
 
-.logo-btn:hover .logo-content {
-    color: var(--rust);
+.nav-logo-btn {
+    font-family: var(--font-display);
+    font-weight: 700;
 }
 
-.logo-img {
+.nlb-img {
     width: 35px;
 }
 
-.logo-content {
-    font-family: var(--font-display);
-    color: var(--espresso);
-    transition: var(--transition);
+.active {
+    color: var(--rust) !important;
 }
 
-.nav-c-btn {
+.nav-link {
     position: relative;
     color: var(--espresso-2);
     transition: var(--transition);
 }
 
-.nav-c-btn:hover {
+.nav-link:hover {
     color: var(--rust);
 }
 
-.nav-c-btn::after {
+.nav-link::after {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 0%;
     height: 1px;
-    width: 0;
     background-color: var(--rust);
     transition: var(--transition);
 }
 
-.nav-c-btn:hover::after {
+.nav-link:hover::after {
     width: 100%;
+}
+
+.nb-rs {
+    color: var(--espresso);
+    transition: var(--transition);
+}
+
+.nb-rs:hover {
     color: var(--rust);
 }
 
-.active {
-    color: var(--rust);
-}
-
-.nav-r-btn {
-    color: var(--espresso-2);
-    transform: var(--transition);
-}
-
-.nav-r-btn:hover {
-    color: var(--rust);
-}
-
-.nrb-span {
+.badge-customize {
     font-family: var(--font-mono);
-    font-size: .6rem !important;
+    font-size: .5rem;
     background-color: var(--rust);
+    padding: 4px 5px;
 }

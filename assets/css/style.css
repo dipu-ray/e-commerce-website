@@ -12,4 +12,86 @@
     --font-display: "Fraunces", "Georgia", serif;
     --font-body: "Work Sans", -apple-system, sans-serif;
     --font-mono: "JetBrains Mono", monospace;
+    --transition: all .4s ease;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--cream);
+    color: var(--espresso-2);
+}
+
+/* Custom Classes */
+.fs-md {
+    font-size: .7rem;
+}
+
+.tracking-widest {
+    letter-spacing: 0.12em;
+}
+
+/* Header */
+.header-top {
+    background-color: var(--espresso);
+    color: var(--tan);
+    font-family: var(--font-mono);
+}
+
+.logo-btn:hover .logo-content {
+    color: var(--rust);
+}
+
+.logo-img {
+    width: 35px;
+}
+
+.logo-content {
+    font-family: var(--font-display);
+    color: var(--espresso);
+    transition: var(--transition);
+}
+
+.nav-c-btn {
+    position: relative;
+    color: var(--espresso-2);
+    transition: var(--transition);
+}
+
+.nav-c-btn:hover {
+    color: var(--rust);
+}
+
+.nav-c-btn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 0;
+    background-color: var(--rust);
+    transition: var(--transition);
+}
+
+.nav-c-btn:hover::after {
+    width: 100%;
+    color: var(--rust);
+}
+
+.active {
+    color: var(--rust);
+}
+
+.nav-r-btn {
+    color: var(--espresso-2);
+    transform: var(--transition);
+}
+
+.nav-r-btn:hover {
+    color: var(--rust);
+}
+
+.nrb-span {
+    font-family: var(--font-mono);
+    font-size: .6rem !important;
+    background-color: var(--rust);
 }

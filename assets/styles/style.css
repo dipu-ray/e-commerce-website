@@ -59,7 +59,8 @@ body {
 /* Header */
 .header-container {
     background-color: var(--cream);
-    height: 95px;
+    height: 96px;
+    border-bottom: 1px solid var(--espresso-2);
 }
 
 .header-top {
@@ -75,6 +76,11 @@ body {
 .nav-logo-btn {
     font-family: var(--font-display);
     font-weight: 700;
+    transition: all .3s ease;
+}
+
+.nav-logo-btn:hover {
+    color: var(--rust);
 }
 
 .nlb-img {
@@ -130,7 +136,7 @@ body {
 /* Home Section */
 .home-section {
     background-color: var(--espresso);
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .home-section h1 {
@@ -164,6 +170,11 @@ body {
     transition: var(--transition);
 }
 
+.home-section .h-btn-2:hover {
+    background-color: var(--cream);
+    color: var(--espresso);
+}
+
 .home-circle {
     bottom: -30px;
     left: -30px;
@@ -194,16 +205,48 @@ body {
     width: 45%;
 }
 
+.categories-section .col:hover .cs-card img {
+    transform: scale(1.1);
+}
+
+.categories-section .card {
+    overflow: hidden;
+}
+
 .categories-section .cs-card {
     height: 400px;
 }
 
 .categories-section .cs-card img {
     height: 100%;
+    transition: var(--transition);
+}
+
+.categories-section .overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(43, 33, 27, 0.82) 0%, rgba(43, 33, 27, 0.05) 55%);
+    display: flex;
+    align-items: flex-end;
+    padding: 1.4rem;
 }
 
 .categories-section .cs-cb {
-    background: linear-gradient(0deg, rgba(43, 33, 27, 0.82) 0%, rgba(43, 33, 27, 0.05) 55%);
+    bottom: 0;
+    left: 10px;
+}
+
+.categories-section .card-text {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--tan);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.categories-section .card-title {
+    color: var(--cream);
+    font-size: 1.25rem;
 }
 
 
@@ -219,11 +262,19 @@ body {
     .home-section p {
         width: 100%;
     }
+
+    .categories-section .cs-card {
+        height: 350px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
     .home-section h1 {
         font-size: 3.8rem;
+    }
+
+    .categories-section .cs-card {
+        height: 300px;
     }
 }
 
@@ -234,6 +285,10 @@ body {
 
     .home-section p {
         width: 80%;
+    }
+
+    .categories-section .cs-card {
+        height: 450px;
     }
 }
 
@@ -250,16 +305,32 @@ body {
         bottom: 30px;
         left: 30px;
     }
+
+    .categories-section .cs-card {
+        height: 350px;
+    }
+
+    .categories-section .cs-para {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 576px) {
+    .header-container {
+        height: 110px;
+    }
+
     .home-section {
-        padding: 10px 15px;
+        padding: 150px 15px 50px;
     }
 
     .home-circle {
         width: 100px;
         height: 100px;
+    }
+
+    .categories-section .cs-card {
+        height: 280px;
     }
 }
 
@@ -272,5 +343,9 @@ body {
     .home-circle {
         width: 80px;
         height: 80px;
+    }
+
+    .categories-section .cs-card {
+        height: 200px;
     }
 }

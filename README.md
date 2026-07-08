@@ -21,6 +21,6 @@
 
 <br/>
 
-![Restaurant Website Preview](./assets/images/project-demo/preview.png)
+![Restaurant Website Preview](./assets/images/content/preview.png)
 
 </div>

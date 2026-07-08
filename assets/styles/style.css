@@ -34,12 +34,25 @@ body {
     padding: 60px 0;
 }
 
+.py-8 {
+    padding: 80px 0;
+}
+
 .same-span {
     color: var(--tan);
     text-transform: uppercase;
     letter-spacing: .1rem;
     font-family: var(--font-mono);
     font-size: .7rem;
+    font-weight: 600;
+}
+
+.same-span-2 {
+    color: var(--rust);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-family: var(--font-mono);
+    font-size: .72rem;
     font-weight: 600;
 }
 
@@ -154,6 +167,21 @@ body {
     width: 130px;
     height: 130px;
     transform: rotate(-10deg);
+}
+
+/* Categories Section */
+.categories-section {
+    background-color: var(--cream);
+}
+
+.categories-section .cs-h2 {
+    font-family: var(--font-display);
+}
+
+.categories-section .cs-para {
+    color: rgba(58, 46, 39, 0.72);
+    font-size: 1.03rem;
+    width: 45%;
 }
 
 

@@ -57,10 +57,19 @@ body {
 }
 
 /* Header */
+.header-container {
+    background-color: var(--cream);
+    height: 95px;
+}
+
 .header-top {
     background-color: var(--espresso);
     color: var(--tan);
     font-family: var(--font-mono);
+}
+
+.nc-bg {
+    background-color: var(--cream);
 }
 
 .nav-logo-btn {
@@ -121,6 +130,7 @@ body {
 /* Home Section */
 .home-section {
     background-color: var(--espresso);
+    margin-top: 100px;
 }
 
 .home-section h1 {
@@ -182,6 +192,18 @@ body {
     color: rgba(58, 46, 39, 0.72);
     font-size: 1.03rem;
     width: 45%;
+}
+
+.categories-section .cs-card {
+    height: 400px;
+}
+
+.categories-section .cs-card img {
+    height: 100%;
+}
+
+.categories-section .cs-cb {
+    background: linear-gradient(0deg, rgba(43, 33, 27, 0.82) 0%, rgba(43, 33, 27, 0.05) 55%);
 }
 
 

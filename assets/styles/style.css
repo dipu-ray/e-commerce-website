@@ -282,14 +282,6 @@ body {
     color: var(--cream);
 }
 
-.best-sellers-section .card:hover .bss-img {
-    transform: scale(1.2);
-}
-
-.bss-img {
-    transition: var(--transition);
-}
-
 
 
 

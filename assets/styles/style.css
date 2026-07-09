@@ -132,7 +132,11 @@ body {
     padding: 4px 5px;
 }
 
-/* Main */
+
+
+
+
+/* Index File Main Codes */
 /* Home Section */
 .home-section {
     background-color: var(--espresso);
@@ -254,7 +258,10 @@ body {
 
 
 /* Responsive Design */
+/* Ultra-Wide Monitors & Large Desktops */
 @media screen and (max-width: 1400px) {
+
+    /* Index File Codes */
     .home-section h1 {
         font-size: 4rem;
     }
@@ -268,7 +275,10 @@ body {
     }
 }
 
+/* Standard Desktop Monitors and Larger Laptops */
 @media screen and (max-width: 1200px) {
+
+    /* Index File Codes */
     .home-section h1 {
         font-size: 3.8rem;
     }
@@ -278,7 +288,10 @@ body {
     }
 }
 
+/* Large Tablets in Landscape mode and Small Laptops */
 @media screen and (max-width: 992px) {
+
+    /* Index File Codes */
     .home-section h1 {
         font-size: 3.3rem;
     }
@@ -292,7 +305,10 @@ body {
     }
 }
 
+/* Tablets in Portrait mode and Extra Large Smartphones */
 @media screen and (max-width: 768px) {
+
+    /* Index File Codes */
     .home-section h1 {
         font-size: 2.4rem;
     }
@@ -315,7 +331,10 @@ body {
     }
 }
 
+/* Standard Mobile Phones in Landscape mode */
 @media screen and (max-width: 576px) {
+
+    /* Index File Codes */
     .header-container {
         height: 110px;
     }
@@ -334,7 +353,10 @@ body {
     }
 }
 
+/* Standard Mobile Phone held vertically (Portrait Mode) */
 @media screen and (max-width: 430px) {
+
+    /* Index File Codes */
     .home-btn-container {
         align-items: start;
         flex-direction: column;

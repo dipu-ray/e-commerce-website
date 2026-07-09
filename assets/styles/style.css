@@ -253,6 +253,11 @@ body {
     font-size: 1.25rem;
 }
 
+/* Best Sellers Section */
+.best-sellers-section {
+    background-color: var(--cream-2);
+}
+
 
 
 
@@ -354,7 +359,7 @@ body {
 }
 
 /* Standard Mobile Phone held vertically (Portrait Mode) */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
 
     /* Index File Codes */
     .home-btn-container {

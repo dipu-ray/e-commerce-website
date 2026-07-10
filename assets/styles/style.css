@@ -476,6 +476,15 @@ body {
     background-color: var(--rust-dark);
 }
 
+/* Footer */
+.footer-section {
+    background-color: var(--espresso);
+}
+
+.footer-section .card {
+    color: rgba(245, 239, 230, 0.75);
+}
+
 
 
 

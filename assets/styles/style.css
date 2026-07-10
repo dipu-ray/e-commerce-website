@@ -425,6 +425,57 @@ body {
     margin-top: 1rem;
 }
 
+/* Newsletter Section */
+.newsletter-section {
+    background-color: var(--cream);
+}
+
+.newsletter-content {
+    background-color: var(--espresso);
+    padding: 50px;
+}
+
+.newsletter-content .card {
+    color: var(--cream);
+}
+
+.newsletter-content h2 {
+    font-family: var(--font-display);
+    color: var(--cream);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.newsletter-content p {
+    color: rgba(245, 239, 230, 0.7);
+}
+
+.newsletter-content .form-control {
+    border-radius: 2px;
+    border: none;
+    padding: 0.85rem 1rem;
+    outline: 0;
+}
+
+.newsletter-content .btn {
+    background: var(--rust);
+    border: 1px solid var(--rust);
+    color: var(--cream);
+    font-family: var(--font-body);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 0.8rem 1.9rem;
+    border-radius: 2px;
+    transition: var(--transition);
+}
+
+.newsletter-content .btn:hover {
+    transform: translateY(-2px);
+    background-color: var(--rust-dark);
+}
+
 
 
 
@@ -480,7 +531,13 @@ body {
         height: 450px;
     }
 
+    .newsletter-content .card-group {
+        flex-direction: column;
+    }
 
+    .newsletter-content .card-2 {
+        width: 100%;
+    }
 }
 
 /* Tablets in Portrait mode and Extra Large Smartphones */
@@ -554,5 +611,13 @@ body {
 
     .categories-section .cs-card {
         height: 200px;
+    }
+
+    .newsletter-content .input-group {
+        flex-direction: column;
+    }
+
+    .newsletter-content .form-control {
+        width: 100%;
     }
 }

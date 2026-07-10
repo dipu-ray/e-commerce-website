@@ -401,6 +401,30 @@ body {
     color: var(--cream);
 }
 
+/* Testimonials Section */
+.testimonials-section {
+    background-color: var(--cream);
+}
+
+.ts-stars i {
+    font-size: .55rem;
+    color: var(--rust);
+}
+
+.ts-body .tsb-para {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    color: var(--espresso);
+    line-height: 1.5;
+}
+
+.ts-body .tsb-span {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: rgba(58, 46, 39, 0.6);
+    margin-top: 1rem;
+}
+
 
 
 
@@ -440,6 +464,10 @@ body {
 @media screen and (max-width: 992px) {
 
     /* Index File Codes */
+    .same-heading-2 {
+        font-size: 2rem;
+    }
+
     .home-section h1 {
         font-size: 3.3rem;
     }
@@ -451,6 +479,8 @@ body {
     .categories-section .cs-card {
         height: 450px;
     }
+
+
 }
 
 /* Tablets in Portrait mode and Extra Large Smartphones */

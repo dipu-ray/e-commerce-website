@@ -282,6 +282,116 @@ body {
     color: var(--cream);
 }
 
+.best-sellers-section .card {
+    transition: var(--transition);
+}
+
+.best-sellers-section .card:hover {
+    box-shadow: 0 15px 30px #3a2e273b;
+    transform: translateY(-4px);
+}
+
+.best-sellers-section .bss-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--rust);
+    color: var(--cream);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.6rem;
+}
+
+.product-tag-2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--sage);
+    color: var(--cream-2);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.6rem;
+}
+
+.bss-c-body .span-top {
+    font-family: var(--font-mono);
+    font-size: .7rem;
+    color: var(--rust);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.bss-c-body .bss-c-title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    color: var(--espresso);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.bss-c-body .bss-roast {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: rgba(58, 46, 39, 0.55);
+    margin-right: 0.35rem;
+}
+
+.bss-cicle-icon i {
+    font-size: .6rem;
+}
+
+.bss-cicle-icon i:nth-child(1),
+.bss-cicle-icon i:nth-child(2) {
+    color: var(--rust);
+}
+
+.bss-cicle-icon i:nth-child(3),
+.bss-cicle-icon i:nth-child(4),
+.bss-cicle-icon i:nth-child(5) {
+    color: var(--cream-2);
+}
+
+.bss-c-body .bss-c-text {
+    font-size: 0.86rem;
+    color: rgba(58, 46, 39, 0.65);
+    margin-bottom: 0.9rem;
+}
+
+.bss-c-body .bss-price {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--espresso);
+    font-size: 1.05rem;
+}
+
+.bss-c-body .bss-view-btn {
+    text-decoration: none;
+    background: var(--espresso);
+    color: var(--cream);
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.66rem 1.1rem;
+    border: 1px solid var(--espresso);
+    border-radius: 2px;
+    transition: var(--transition);
+}
+
+.bss-c-body .bss-view-btn:hover {
+    background-color: var(--rust);
+    color: var(--cream);
+}
+
 
 
 
@@ -379,6 +489,13 @@ body {
 
     .categories-section .cs-card {
         height: 280px;
+    }
+
+    .bss-content {
+        flex-direction: column;
+        gap: 35px;
+        align-items: start !important;
+        margin-bottom: 40px;
     }
 }
 

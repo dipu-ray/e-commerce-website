@@ -500,7 +500,7 @@ body {
 }
 
 .footer-section .f-icons i {
-    border: 1px solid rgba(245,239,230,0.25);
+    border: 1px solid rgba(245, 239, 230, 0.25);
     border-radius: 100%;
     width: 35px;
     height: 35px;
@@ -517,6 +517,15 @@ body {
 
 .footer-section a {
     color: rgba(245, 239, 230, 0.75);
+}
+
+.footer-section .fs-fancy {
+    color: var(--cream);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1rem;
 }
 
 

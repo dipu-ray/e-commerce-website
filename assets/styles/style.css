@@ -485,6 +485,11 @@ body {
     color: rgba(245, 239, 230, 0.75);
 }
 
+.footer-section .nlb-img {
+    border: 1px solid var(--tan);
+    border-radius: 100%;
+}
+
 .footer-section .f-logo {
     color: var(--cream);
     transition: var(--transition);

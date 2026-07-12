@@ -530,6 +530,16 @@ body {
 
 .footer-section .f-links {
     font-size: .92rem;
+    transition: var(--transition);
+}
+
+.footer-section .f-links:hover {
+    color: var(--tan);
+}
+
+.footer-section .fl-content {
+    color: rgba(245, 239, 230, 0.75);
+    font-size: .92rem;
 }
 
 

@@ -485,6 +485,15 @@ body {
     color: rgba(245, 239, 230, 0.75);
 }
 
+.footer-section .f-logo {
+    color: var(--cream);
+    transition: var(--transition);
+}
+
+.footer-section .f-logo:hover {
+    color: var(--tan);
+}
+
 .footer-section a {
     color: rgba(245, 239, 230, 0.75);
 }

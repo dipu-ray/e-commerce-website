@@ -494,6 +494,22 @@ body {
     color: var(--tan);
 }
 
+.footer-section .f-icons i {
+    border: 1px solid rgba(245,239,230,0.25);
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.footer-section .f-icons i:hover {
+    background-color: var(--tan);
+    color: var(--espresso);
+}
+
 .footer-section a {
     color: rgba(245, 239, 230, 0.75);
 }

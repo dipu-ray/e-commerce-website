@@ -68,7 +68,7 @@ body {
 .header-container {
     background-color: var(--cream);
     height: 96px;
-    border-bottom: 1px solid var(--espresso-2);
+    border-bottom: 1px solid var(--line);
 }
 
 .header-top {
@@ -144,7 +144,7 @@ body {
 
 
 
-/* Index File Main Codes */
+/* Index File Codes */
 /* Home Section */
 .home-section {
     background-color: var(--espresso);
@@ -559,11 +559,39 @@ body {
 /* Shop File Codes */
 /* Banner Section */
 .banner-section {
-    /* background-color: var(--espresso); */
-    background-color: var(--rust);
+    background-color: var(--espresso);
     padding-top: 100px;
 }
 
+.banner-section h1 {
+    color: var(--cream);
+    font-family: var(--font-display);
+    font-size: 2.8rem;
+    letter-spacing: -0.01em;
+}
+
+.banner-section a {
+    font-family: var(--font-mono);
+    font-size: .78rem;
+    color: var(--tan);
+}
+
+.banner-section .c-page {
+    font-family: var(--font-mono);
+    font-size: .78rem;
+    color: rgba(245, 239, 230, 0.6);
+    margin-top: 4.5px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: rgba(245, 239, 230, 0.6);
+}
+
+/* Filters Section */
+.filters-section {
+    background-color: var(--cream);
+    color: var(--espresso-2);
+}
 
 
 
@@ -626,6 +654,11 @@ body {
 
     .newsletter-content .card-2 {
         width: 100%;
+    }
+
+    /* Shop File Codes */
+    .banner-section h1 {
+        font-size: 2rem;
     }
 }
 

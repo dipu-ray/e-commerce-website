@@ -548,10 +548,10 @@ body {
     background-color: rgba(245, 239, 230, 0.14);
 }
 
-.footer-section .fl-container {
-    color: rgba(245, 239, 230, 0.75);
+.footer-section .fc-text {
     font-size: .82rem;
 }
+
 
 
 

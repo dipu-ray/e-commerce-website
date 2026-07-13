@@ -556,6 +556,18 @@ body {
 
 
 
+/* Shop File Codes */
+/* Banner Section */
+.banner-section {
+    /* background-color: var(--espresso); */
+    background-color: var(--rust);
+    padding-top: 100px;
+}
+
+
+
+
+
 
 /* Responsive Design */
 /* Ultra-Wide Monitors & Large Desktops */

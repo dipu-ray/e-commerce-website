@@ -593,6 +593,29 @@ body {
     color: var(--espresso-2);
 }
 
+.filters-section .fs-span {
+    font-family: var(--font-mono);
+    font-size: .78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--espresso);
+}
+
+.filters-section .ig-main {
+    gap: 12px;
+}
+
+.filters-section .form-check-label {
+    font-size: .92rem;
+}
+
+.filters-section .filter-line {
+    width: 90%;
+    height: .5px;
+    background-color: var(--line);
+}
+
 
 
 

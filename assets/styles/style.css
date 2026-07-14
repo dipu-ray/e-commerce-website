@@ -616,6 +616,15 @@ body {
     background-color: var(--line);
 }
 
+.filters-section .btng-btn {
+    font-family: var(--font-mono);
+    font-size: .72rem;
+    border: 1px solid var(--line);
+    padding: 6px 11px;
+    color: var(--espresso-2);
+    cursor: pointer;
+}
+
 
 
 

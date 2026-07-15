@@ -623,6 +623,28 @@ body {
     padding: 6px 11px;
     color: var(--espresso-2);
     cursor: pointer;
+    transition: var(--transition);
+}
+
+.filters-section .btng-btn:hover {
+    border: 1px solid var(--rust);
+    color: var(--rust);
+}
+
+.filters-section .apply-btn {
+    background: transparent;
+    border: 1px solid var(--espresso);
+    color: var(--espresso);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 13px 30px;
+    border-radius: 2px;
+    transition: var(--transition);
+}
+
+.filters-section .apply-btn:hover {
+    background-color: var(--espresso);
+    color: var(--cream);
 }
 
 

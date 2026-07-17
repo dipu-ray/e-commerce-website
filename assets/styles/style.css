@@ -288,7 +288,7 @@ body {
 
 .sm-card:hover {
     box-shadow: 0 15px 30px #3a2e273b;
-    transform: translateY(-4px);
+    transform: translateY(-5px);
 }
 
 .bss-img {

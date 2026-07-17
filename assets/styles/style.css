@@ -282,16 +282,16 @@ body {
     color: var(--cream);
 }
 
-.best-sellers-section .card {
+.sm-card {
     transition: var(--transition);
 }
 
-.best-sellers-section .card:hover {
+.sm-card:hover {
     box-shadow: 0 15px 30px #3a2e273b;
     transform: translateY(-4px);
 }
 
-.best-sellers-section .bss-img {
+.bss-img {
     height: 250px;
     object-fit: cover;
     transition: var(--transition);
@@ -301,8 +301,8 @@ body {
     overflow: hidden;
 }
 
-.best-sellers-section .card:hover .bss-img {
-    transform: scale(1.5);
+.sm-card:hover .bss-img {
+    transform: scale(1.1);
 }
 
 .product-tag {

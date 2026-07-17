@@ -647,6 +647,15 @@ body {
     color: var(--cream);
 }
 
+.filters-section .same-para {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: rgba(58, 46, 39, 0.6);
+}
+
+.filters-section .fsrs-fs {
+    font-size: .85rem;
+}
 
 
 

@@ -360,14 +360,11 @@ body {
     font-size: .6rem;
 }
 
-.bss-cicle-icon i:nth-child(1),
-.bss-cicle-icon i:nth-child(2) {
+.bss-cicle-icon .rust-c {
     color: var(--rust);
 }
 
-.bss-cicle-icon i:nth-child(3),
-.bss-cicle-icon i:nth-child(4),
-.bss-cicle-icon i:nth-child(5) {
+.bss-cicle-icon .cream-c {
     color: var(--cream-2);
 }
 

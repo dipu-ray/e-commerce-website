@@ -823,6 +823,7 @@ h6 {
 }
 
 .description-section .ds-last-c {
+    font-family: var(--font-mono);
     font-size: 0.8rem;
     color: rgba(58, 46, 39, 0.6);
 }

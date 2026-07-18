@@ -951,6 +951,11 @@ h6 {
     .categories-section .cs-para {
         width: 100%;
     }
+
+    /* Product File Codes */
+    .py4-2 {
+        padding: 40px 0;
+    }
 }
 
 /* Standard Mobile Phones in Landscape mode */
@@ -1006,5 +1011,16 @@ h6 {
 
     .newsletter-content .form-control {
         width: 100%;
+    }
+
+    /* Product File Codes */
+    .btn2-c {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    .dst-container {
+        flex-direction: column;
+        align-items: center;
     }
 }

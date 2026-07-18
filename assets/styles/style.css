@@ -858,6 +858,11 @@ h6 {
     color: rgba(58, 46, 39, 0.75);
 }
 
+/* Related Product Section */
+.r-product-s {
+    background-color: var(--cream-2);
+}
+
 
 
 

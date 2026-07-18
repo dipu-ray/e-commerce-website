@@ -828,6 +828,36 @@ h6 {
     color: rgba(58, 46, 39, 0.6);
 }
 
+.description-section .dst-active {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--rust) !important;
+    border-bottom: 2px solid var(--rust);
+    padding-bottom: 0.8rem;
+}
+
+.description-section .dst-btn {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(58, 46, 39, 0.55);
+    padding-bottom: 0.8rem;
+    transition: var(--transition);
+}
+
+.description-section .dst-btn:hover {
+    color: var(--rust);
+    border-bottom: 2px solid var(--rust);
+}
+
+.description-section .description-p {
+    max-width: 48rem;
+    color: rgba(58, 46, 39, 0.75);
+}
+
 
 
 

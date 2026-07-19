@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact — Ember & Oak</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/common/favicon.png" type="image/x-icon">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Google fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Link up custom CSS -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="position-fixed top-0 left-0 w-100 z-3 header-container">
+            <div class="header-top">
+                <p class="text-uppercase fs-md text-center tracking-widest py-2 mb-0">Free shipping on orders over $45 •
+                    Roasted & shipped every Tuesday</p>
+            </div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand d-flex gap-2 align-items-center nav-logo-btn" href="index.html">
+                        <img class="nlb-img" src="assets/images/common/favicon.png" alt="Coffee Logo">
+                        <span class="fs-4">Ember & Oak</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mt-4 mt-lg-0 nc-bg" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4 align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium p-0" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium p-0" href="shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium p-0" href="product.html">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium p-0" href="our-story.html">Our Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="active nav-link fw-medium p-0" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav gap-3 text-center text-lg-start mt-5 mt-lg-0">
+                            <li>
+                                <a href="#x" class="fs-5 nb-rs">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#x" class="fs-5 nb-rs position-relative">
+                                    <i class="fa-solid fa-bag-shopping">
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-customize">
+                                            3
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Banner Section -->
+        <section class="banner-section">
+            <div class="container py-5">
+                <span class="same-span">We'd Love to Hear From You</span>
+                <h1 class="mt-2 fw-semibold">Contact Us</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a class="text-decoration-none" href="index.html">Home</a></li>
+                        <li class="breadcrumb-item c-page" aria-current="page">Contact</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Form & Info Section -->
+        <section class="form-info-s py-8">
+            <div class="container">
+                <div class="">
+                    <div class="row gap-5 gap-lg-0">
+                        <div class="col-12 col-lg-7 pe-3 pe-lg-4">
+                            <span class="same-span-2">Send a Message</span>
+                            <h2 class="heading-2 mt-2 mb-4">Questions about an order, wholesale, or just coffee?</h2>
+                            <form action="#x">
+                                <div class="mb-3 d-flex flex-column flex-md-row gap-3">
+                                    <div class="w-100 w-md-50">
+                                        <label for="f-name" class="form-label">Full Name</label>
+                                        <input type="email" class="form-control rounded-0 py-2" id="f-name"
+                                            aria-describedby="emailHelp" placeholder="Your Name">
+                                    </div>
+                                    <div class="w-100 w-md-50">
+                                        <label for="email-address" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control rounded-0 py-2" id="email-address"
+                                            aria-describedby="emailHelp" placeholder="you@email.com">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <select id="subject" class="form-select rounded-0 py-2"
+                                        aria-label="Default select example">
+                                        <option selected>Order Support</option>
+                                        <option value="1">Wholesale Inquiry</option>
+                                        <option value="2">Press & Media</option>
+                                        <option value="3">General Question</option>
+                                    </select>
+                                </div>
+                                <div class="mt-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                    <textarea class="form-control rounded-0 py-2" id="exampleFormControlTextarea1"
+                                        rows="6"></textarea>
+                                </div>
+                                <button type="submit" class="submit-btn mt-3">Send Message</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-lg-5 ps-3 ps-lg-4">
+                            <span class="same-span-2">Visit or Write</span>
+                            <h2 class="heading-2 mt-2">Find the roastery</h2>
+                            <div class="contact-info mt-4 d-flex flex-column gap-4">
+                                <div class="d-flex gap-3">
+                                    <div class="mt-1">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-semibold">Roastery & Tasting Room</h5>
+                                        <p>House 12, Road 4, Banani</p>
+                                        <p>Dhaka 1212, Bangladesh</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-3">
+                                    <div class="mt-1">
+                                        <i class="fa-regular fa-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-semibold">Email</h5>
+                                        <p>hello@emberoak.coffee</p>
+                                        <p>wholesale@emberoak.coffee</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-3">
+                                    <div class="mt-1">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-semibold">Phone</h5>
+                                        <p>+880 1234 567 890</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-3">
+                                    <div class="mt-1">
+                                        <i class="fa-regular fa-clock"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-semibold">Tasting Room Hours</h5>
+                                        <p>Sat – Thu, 9am – 7pm</p>
+                                        <p>Closed Fridays</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="w-100 mt-3" src="assets/images/content/contact-1.png" alt="Coffee Cafe">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <section class="footer-section py-6 pb-4">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col-md-12 col-lg-4 col-xl-4 mb-4 mb-xl-2">
+                        <div class="card bg-transparent border-0">
+                            <a class="navbar-brand d-flex gap-2 align-items-center nav-logo-btn" href="index.html">
+                                <div>
+                                    <img class="nlb-img" src="assets/images/common/favicon.png" alt="Coffee Logo">
+                                </div>
+                                <span class="fs-4 f-logo">Ember & Oak</span>
+                            </a>
+                            <p class="my-3">A small roastery in Dhaka roasting single-origin and blended coffee in
+                                weekly batches, shipped fresh to your door.</p>
+                            <div class="f-icons d-flex gap-3">
+                                <a class="text-decoration-none" href="#x"><i class="fa-brands fa-facebook"></i></a>
+                                <a class="text-decoration-none" href="#x"><i class="fa-brands fa-instagram"></i></a>
+                                <a class="text-decoration-none" href="#x"><i class="fa-brands fa-x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-8 col-xl-8">
+                        <div class="card bg-transparent border-0">
+                            <div class="row row-cols-1 row-cols-md-1 g-4">
+                                <div class="col-md-3 col-xl-3">
+                                    <div class="card bg-transparent border-0">
+                                        <span class="fs-fancy">Shop</span>
+                                        <ul class="list-unstyled d-flex flex-column gap-2">
+                                            <li><a class="text-decoration-none f-links" href="#x">Whole Bean</a></li>
+                                            <li><a class="text-decoration-none f-links" href="#x">Ground Coffee</a></li>
+                                            <li><a class="text-decoration-none f-links" href="#x">Brew Gear</a></li>
+                                            <li><a class="text-decoration-none f-links" href="#x">Gift Sets</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-xl-3">
+                                    <div class="card bg-transparent border-0">
+                                        <span class="fs-fancy">Company</span>
+                                        <ul class="list-unstyled d-flex flex-column gap-2">
+                                            <li><a class="text-decoration-none f-links" href="#x">Our Story</a></li>
+                                            <li><a class="text-decoration-none f-links" href="#x">Contact</a></li>
+                                            <li><a class="text-decoration-none f-links" href="#x">Cart</a></li>
+                                            <li><a class="text-decoration-none f-links" href="#x">Checkout</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-6">
+                                    <div class="card bg-transparent border-0">
+                                        <span class="fs-fancy">Visit the Roastery</span>
+                                        <div class="d-flex flex-column gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <span class="fl-content">House 12, Road 4, Dhaka 1212</span>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-envelope"></i>
+                                                <span class="fl-content">hello@emberoak.coffee</span>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-phone"></i>
+                                                <span class="fl-content">+880 1234 567 890</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Horizontal Bar -->
+                <div class="f-hz-bar mt-5 mb-4"></div>
+
+                <div class="row row-cols-1 row-cols-xl-2">
+                    <div class="card bg-transparent">
+                        <div class="card-body d-flex justify-content-center justify-content-xl-start py-1">
+                            <p class="card-text text-center text-xl-start fc-text">© 2026 Ember & Oak Coffee Roasters.
+                                All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="card bg-transparent">
+                        <div class="card-body d-flex justify-content-center justify-content-xl-end py-1">
+                            <p class="card-text text-center text-xl-end fc-text">Designed for slow mornings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

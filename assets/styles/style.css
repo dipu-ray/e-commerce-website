@@ -867,6 +867,171 @@ h6 {
 
 
 
+/* Our-Story File Codes */
+/* Starter Section */
+.starter-section {
+    background-color: var(--cream);
+}
+
+.starter-section h3 {
+    font-size: 2rem;
+}
+
+.starter-section p {
+    color: rgba(58, 46, 39, 0.75);
+}
+
+/* Counting Section */
+.counting-section {
+    background-color: var(--cream-2);
+}
+
+.counting-section .cs-heading {
+    font-size: 2.6rem;
+    width: 40%;
+}
+
+.counting-section .cs-para {
+    color: rgba(58, 46, 39, 0.72);
+    font-size: 1.03rem;
+}
+
+.counting-section .cs-line {
+    height: 1px;
+    background-color: var(--line);
+}
+
+.counting-section .cs-serial {
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    color: var(--rust);
+    min-width: 2.6rem;
+}
+
+.counting-section .cs-h4 {
+    font-size: 1.2rem;
+}
+
+.counting-section .cs-para2 {
+    color: rgba(58, 46, 39, 0.68);
+}
+
+/* Values Section */
+.vs-container i {
+    font-size: 1.8rem;
+    color: var(--rust);
+}
+
+.vs-container h4 {
+    font-size: 1.15rem;
+}
+
+.vs-container p {
+    color: rgba(58, 46, 39, 0.7);
+    font-size: 0.94rem;
+}
+
+/* Roast Section */
+.roast-section {
+    background-color: var(--espresso);
+}
+
+.roast-section h2 {
+    color: var(--cream);
+}
+
+.roast-section p {
+    color: rgba(245, 239, 230, 0.72);
+    max-width: 34rem;
+    margin: 0.6rem auto 1.6rem;
+}
+
+.roast-section a {
+    background: transparent;
+    border: 1px solid rgba(245, 239, 230, 0.6);
+    color: var(--cream);
+    font-weight: 600;
+    padding: 13px 30px;
+    border-radius: 2px;
+    transition: var(--transition);
+}
+
+.roast-section a:hover {
+    background-color: var(--cream);
+    color: var(--espresso);
+}
+
+
+
+
+
+/* Contact File Codes */
+/* Form & Info Section */
+.form-info-s {
+    background-color: var(--cream);
+}
+
+.form-info-s .heading-2 {
+    font-size: 1.8rem;
+}
+
+.form-info-s .form-label {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--espresso-2);
+    margin-bottom: 0.4rem;
+    display: block;
+}
+
+.form-info-s .form-control:focus {
+    border-color: var(--rust);
+    box-shadow: 0 0 2px var(--rust);
+}
+
+.form-info-s .form-select:focus {
+    border-color: var(--rust);
+    box-shadow: 0 0 2px var(--rust);
+}
+
+.form-info-s .submit-btn {
+    background-color: var(--rust);
+    border: 1px solid var(--rust);
+    color: var(--cream);
+    font-family: var(--font-body);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 0.8rem 1.9rem;
+    border-radius: 2px;
+    transition: var(--transition);
+}
+
+.form-info-s .submit-btn:hover {
+    background-color: var(--rust-dark);
+    transform: translateY(-3px);
+}
+
+.contact-info i {
+    font-size: 1.3rem;
+    color: var(--rust);
+}
+
+.contact-info h5 {
+    font-size: 1rem;
+    font-family: var(--font-body);
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    line-height: 8px;
+    color: rgba(58, 46, 39, 0.7);
+}
+
+
+
+
+
 /* Responsive Design */
 /* Ultra-Wide Monitors & Large Desktops */
 @media screen and (max-width: 1400px) {
@@ -930,6 +1095,12 @@ h6 {
     .banner-section h1 {
         font-size: 2rem;
     }
+
+    /* Our-Story File Codes */
+    .counting-section .cs-heading {
+        font-size: 2rem;
+        width: 60%;
+    }
 }
 
 /* Tablets in Portrait mode and Extra Large Smartphones */
@@ -960,6 +1131,17 @@ h6 {
     /* Product File Codes */
     .py4-2 {
         padding: 40px 0;
+    }
+
+    /* Our-Story File Codes */
+    .counting-section .cs-heading {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .vs-container p {
+        width: 80%;
+        margin: 0 auto;
     }
 }
 

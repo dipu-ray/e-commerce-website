@@ -3,7 +3,7 @@
 # 🛒 E-Commerce Website
 
 ![Start Date](https://img.shields.io/badge/Started-07%20July%2C%202026-brightgreen?style=for-the-badge)
-![End Date](https://img.shields.io/badge/Completed-00%20July%2C%202026-blue?style=for-the-badge)
+![End Date](https://img.shields.io/badge/Completed-20%20July%2C%202026-blue?style=for-the-badge)
 
 ### _A Sleek, Fully Responsive E-Commerce Platform_
 

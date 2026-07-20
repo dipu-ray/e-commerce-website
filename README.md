@@ -211,3 +211,15 @@ e-commerce-website/                → Git repo or project name
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23FF5722.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://dipu-ray.github.io/)
 
 </div>
+
+---
+
+<div align="center">
+
+### ⭐ Star this repo if you found it helpful!
+
+_Made with ❤️ and a lot of ☕_
+
+**[🔝 Back to Top](#-e-commerce-website)**
+
+</div>

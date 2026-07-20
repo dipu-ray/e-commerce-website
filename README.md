@@ -197,3 +197,17 @@ e-commerce-website/                → Git repo or project name
   /* Standard Mobile Phone held vertically (Portrait Mode) */
 }
 ```
+
+---
+
+## 👤 Author
+
+<div align="center">
+
+**Dipu Ray**
+
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dipu-ray/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dipu-ray/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23FF5722.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://dipu-ray.github.io/)
+
+</div>
